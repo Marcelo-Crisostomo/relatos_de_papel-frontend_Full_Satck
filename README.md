@@ -14,6 +14,7 @@ Desarrollar una tienda web de libros inspirada en el proyecto "Relatos de Papel"
 * Estilos con CSS, BEM, Tailwind o SCSS
 * Arquitectura escalable para futura integración con backend en microservicios
 * Despliegue profesional en plataformas como **Vercel**
+* Integración de API pública: **Google Books API**
 
 ---
 
@@ -44,8 +45,8 @@ relatos-de-papel-frontend/
 Para clonar y ejecutar este proyecto en tu entorno local:
 
 ```bash
-git clone https://github.com/tu-usuario/relatos-de-papel-frontend.git
-cd relatos-de-papel-frontend
+git clone https://github.com/Marcelo-Crisostomo/relatos_de_papel-frontend_Full_Satck.git
+cd relatos_de_papel-frontend_Full_Satck
 npm install
 npm run dev
 ```
@@ -140,12 +141,30 @@ Abrir en navegador: `http://localhost:5173`
 * ✅ **Vista de checkout con resumen, botón de confirmación y redirección**
 * ✅ **Integración de React Router con rutas declarativas y dinámicas (`/book/:id`)**
 * ✅ **Custom hook funcional (`useGoogleBooks`) y context global (`useCart`)**
+* ✅ **Integración de API pública: Google Books API para cargar resultados reales**
+
+---
+
+## 🔗 API Integrada
+
+Esta aplicación hace uso de la API pública de **Google Books**:
+
+* Documentación: [https://developers.google.com/books/docs/v1/using](https://developers.google.com/books/docs/v1/using)
+* Endpoint utilizado: `https://www.googleapis.com/books/v1/volumes?q=`
+
+El hook personalizado `useGoogleBooks()` realiza peticiones a esta API en tiempo real y carga:
+
+* Título del libro
+* Autor/es
+* Imagen
+* Descripción HTML
+* Páginas, editorial, calificaciones, categorías y más
 
 ---
 
 ## 🌐 Despliegue
 
-* 🔗 URL del sitio en producción: *(por definir – se incluirá en URL.txt)*
+* 🔗 URL del sitio en producción: [https://relatos-de-papel-frontend-full-satck.vercel.app](https://relatos-de-papel-frontend-full-satck.vercel.app)
 * Plataforma utilizada: **Vercel**
 
 ---
