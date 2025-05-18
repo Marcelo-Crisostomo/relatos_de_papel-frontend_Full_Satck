@@ -1,0 +1,263 @@
+html, body {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+    height: 100%;
+  }
+  
+
+
+
+  
+  .book-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .book-card__title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .book-card__author {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .book-card__link {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar__logo, .navbar__cart {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .book-detail__container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .book-detail__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .book-detail__author {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .book-detail__description {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .book-detail__button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-detail__button:hover {
+    background-color: #0056b3;
+  }
+  .cart {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: 2rem auto;
+    max-width: 400px;
+    background-color: #fafafa;
+    border-radius: 8px;
+  }
+  
+  .cart__title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cart__empty {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .cart__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart__remove {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .cart__remove:hover {
+    background-color: #b02a37;
+  }
+  
+  .cart__checkout {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .cart__checkout:hover {
+    background-color: #1e7e34;
+  }
+  .checkout__container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .checkout__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .checkout__empty {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .checkout__list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .checkout__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .checkout__book {
+    font-weight: bold;
+  }
+  
+  .checkout__author {
+    font-style: italic;
+  }
+  
+  .checkout__total {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .checkout__button {
+    margin-top: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .checkout__button:hover {
+    background-color: #0056b3;
+  }
+    
+  .book-card__image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+
+  .book-detail__container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .book-detail__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .book-detail__author {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .book-detail__image {
+    width: 200px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  
+  .book-detail__description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .book-detail__button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-detail__button:hover {
+    background-color: #0056b3;
+  }
+  
